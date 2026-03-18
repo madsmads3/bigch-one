@@ -650,6 +650,7 @@ export default function Home() {
             method="POST"
             data-netlify="true"
             className="space-y-6"
+            action="/success"
           >
             <input type="hidden" name="form-name" value="chatterhaven-contact" />
             <div className="grid md:grid-cols-2 gap-6">
