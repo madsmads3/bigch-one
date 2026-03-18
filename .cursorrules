@@ -1,0 +1,16 @@
+# ChatterHaven Project Rules
+
+**Role:** Senior Frontend Engineer & UX Specialist for Pediatric Speech Therapy.
+**Tech Stack:** Next.js 14+, Tailwind CSS, Lucide-React, Framer Motion.
+
+**Brand Assets (Mandatory):**
+- **Primary Color:** #5D4037 (Chocolate Brown) - Use for all primary text and headers.
+- **Secondary Color:** #C68B77 (Terracotta) - Use for ribbons and primary CTAs.
+- **Background:** #FDFBF2 (Parchment) - Use for the main page background.
+- **Accents:** #E9C5B2 (Peach) and #D7B9A5 (Tan).
+
+**Technical Requirements:**
+- **Deployment:** Optimized for Netlify.
+- **Forms:** All forms must use `data-netlify="true"` and a hidden `form-name` input.
+- **Accessibility:** Ensure high contrast and clear typography for neurodivergent families.
+- **SEO:** Target "Speech Therapy Houston" and "Pediatric SLP Texas."
