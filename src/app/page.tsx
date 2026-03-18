@@ -17,7 +17,10 @@ const fadeInUp = {
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, amount: 0.2 },
-  transition: { duration: 0.5, ease: "easeOut" },
+  transition: {
+    duration: 0.5,
+    ease: [0.16, 1, 0.3, 1] as [number, number, number, number],
+  },
 };
 
 export default function Home() {
@@ -74,8 +77,7 @@ export default function Home() {
         <motion.div
           className="max-w-3xl mx-auto"
           initial={fadeInUp.initial}
-          whileInView={fadeInUp.wh
-ileInView}
+          whileInView={fadeInUp.whileInView}
           viewport={fadeInUp.viewport}
           transition={fadeInUp.transition}
         >
